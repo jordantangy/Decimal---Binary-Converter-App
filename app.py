@@ -55,6 +55,8 @@ Label(main, text = "Enter a Decimal :").grid(row=2)
 Label(main, text = "Answer:").grid(row=3)
 
 
+
+
 Label(main, text = "Enter a Binary :").grid(row=10)
 Label(main, text = "Answer:").grid(row=11)
 
@@ -71,8 +73,11 @@ num2.grid(row=10, column=1)
 blank2.grid(row=11, column=1)
 
 
+
 Button(main, text='Quit', command=main.destroy).grid(row=15, column=7,sticky=W, pady=20)
 Button(main, text='Convert', command=toBinary).grid(row=4, column=1, sticky=W, pady=10)
 Button(main, text='Convert', command=toDecimal).grid(row=12, column=1, sticky=W, pady=4)
+
+
 
 mainloop()
